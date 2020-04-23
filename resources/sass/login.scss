@@ -1,0 +1,48 @@
+@import 'variables';
+
+.login{
+  font-family: "Montserrat-Medium";
+  background-image: url("/images/calendario.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  .card{
+    border: none !important;
+    border-radius: 2rem 0 !important;
+    background: #a5a5a5f0 !important;
+    padding: 1.5rem;
+    box-shadow: 4px -4px 15px #4d4d4de3;
+  }
+  form{
+    input{
+      background: none;
+      border-radius: 2rem 0;
+      color: white;
+      text-align: center;
+      font-size: 1.2rem;
+      &:focus{
+        background: #a5a5a580 !important;
+        color: white !important;
+      }
+      &::placeholder{
+        color: white;
+        font-size: 1.2rem;
+      }
+    }
+  }
+  .btn-personalizade{
+    border-radius: 50px;
+    width: 100%;
+    height: 3rem;
+    color: white;
+    border: 2px solid #5a9bd5;
+    font-weight: bolder;
+    text-transform: uppercase;
+    background: #5a9bd55e;
+    font-family: "Montserrat-Medium";
+    transition: .8s;
+    &:hover{
+      transition: .8s;
+      background: #5a9bd5db;
+    }
+  }
+}
